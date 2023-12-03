@@ -54,7 +54,7 @@ export default function Header() {
           <svg>
             <use href={`${sprite}#logo`}></use>
           </svg>
-          Car Rent
+          Car Shop
         </LogoLink>
 
         {isDesktop && (

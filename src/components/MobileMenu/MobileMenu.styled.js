@@ -16,7 +16,7 @@ export const MenuDiv = styled.div`
   padding: 140px 20px 40px;
 
   color: ${({ theme }) => theme.color.greyBackgroundSelect};
-  background-color: ${({ theme }) => theme.color.blue};
+  background-color: #21376b;
   border-left: 1px solid ${({ theme }) => theme.color.greyBackgroundSelect};
 
   & > svg {

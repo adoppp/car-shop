@@ -5,7 +5,7 @@ export const ContainerDiv = styled.div`
   height: 63px;
   padding: 12px 0;
 
-  background-color: ${({ theme }) => theme.color.blue};
+  background-color: #21376b;
   color: ${({ theme }) => theme.color.greyBackgroundSelect};
   border-bottom: 1px solid ${({ theme }) => theme.color.greyBackgroundSelect};
 
@@ -20,6 +20,7 @@ export const ContainerDiv = styled.div`
 export const WrapperDiv = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   width: 100%;
   padding: 0 20px;
